@@ -2,6 +2,7 @@ package com.example.bazagierprojekt;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.room.Query;
 
 @Entity(tableName = "gry")
 public class Gry {
@@ -24,4 +25,6 @@ public class Gry {
     public String toString() {
         return "nazwa " + nazwa + "\n" + "czy Dalej Dziala " + czyDalejDziala + "\n" + "rodzajGry " + rodzajGry + '\n' + "rokWydania " + rokWydania;
     }
+
+
 }

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">baza gier Projekt</string>
+    <string-array name="rodzajeGry">
+        <item>horror</item>
+        <item>sandbox</item>
+        <item>scify</item>
+        <item>przygodowa</item>
+        <item>shooter</item>
+    </string-array>
 </resources>
