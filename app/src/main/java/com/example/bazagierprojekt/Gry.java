@@ -9,21 +9,21 @@ public class Gry {
     @PrimaryKey(autoGenerate = true)
     public int id;
 
-    public Gry(String nazwa, Boolean czyDalejDziala, String rodzajGry, int rokWydania) {
+    public Gry(String nazwa, Boolean czyDalejDziala, String rodzajGry, int liczbaGraczy) {
         this.nazwa = nazwa;
         this.czyDalejDziala = czyDalejDziala;
         this.rodzajGry = rodzajGry;
-        this.rokWydania = rokWydania;
+        this.liczbaGraczy = liczbaGraczy;
     }
 
     public String nazwa;
     public Boolean czyDalejDziala;
     public String rodzajGry;
-    public int rokWydania;
+    public int liczbaGraczy;
 
     @Override
     public String toString() {
-        return "nazwa " + nazwa + "\n" + "czy Dalej Dziala " + czyDalejDziala + "\n" + "rodzajGry " + rodzajGry + '\n' + "rokWydania " + rokWydania;
+        return "nazwa " + nazwa + "\n" + "czy Dalej Dziala " + czyDalejDziala + "\n" + "rodzajGry " + rodzajGry + '\n' + "liczba graczy " + liczbaGraczy;
     }
 
 

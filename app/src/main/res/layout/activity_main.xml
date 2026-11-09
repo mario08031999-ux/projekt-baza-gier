@@ -40,13 +40,19 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:hint="podaj Date utworzenia"/>
+        android:hint="podaj liczbe graczy (w milionach)"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Dodaj" />
+        android:text="Dodaj"/>
+
+    <Button
+        android:id="@+id/aktualizuj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Aktualizuj" />
 
 </LinearLayout>

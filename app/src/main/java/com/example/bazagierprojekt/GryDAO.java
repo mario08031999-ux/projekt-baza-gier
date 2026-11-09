@@ -4,6 +4,7 @@ import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -17,6 +18,9 @@ public interface GryDAO {
 
     @Delete
     void usunGreZBazy(Gry gry);
+
+    @Update
+    void zaktualizujaGryWBazie(Gry gry);
 
     @Query("SELECT * FROM gry")
     List<Gry>zwrocWszystkieGryZBazy();
